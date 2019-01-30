@@ -27,7 +27,7 @@ describe("<Display/>", () => {
 
     });
 
-    it("shold display the locked if locked prop is true", () => {
+    it("should display the locked if locked prop is true", () => {
         const shouldBeLocked = render(<Display locked={true} />).getByText;
 
         shouldBeLocked(/locked/i);
